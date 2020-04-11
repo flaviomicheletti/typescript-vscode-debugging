@@ -4,6 +4,18 @@
         {
             "type": "node",
             "request": "launch",
+            "name": "Launch Program",
+            "program": "${workspaceFolder}/src/app.ts",
+            "outFiles": [
+                "${workspaceFolder}/out/**/*.js"
+            ],            
+            "skipFiles": [
+                "<node_internals>/**"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
             "name": "Build Project",
             "program": "${workspaceFolder}/src/app.ts",
             "preLaunchTask": "npm: build",
