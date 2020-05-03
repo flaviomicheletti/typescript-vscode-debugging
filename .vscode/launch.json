@@ -6,9 +6,7 @@
       "type": "node",
       "request": "launch",
       "program": "${workspaceFolder}/src/app.ts",
-      "outFiles": [
-        "${workspaceFolder}/out/**/*.js"
-      ],
+      "outFiles": ["${workspaceFolder}/out/**/*.js"],
       "skipFiles": ["<node_internals>/**"]
     },
     {
@@ -16,11 +14,11 @@
       "type": "node",
       "request": "launch",
       "program": "${workspaceFolder}/src/app.ts",
+      "outFiles": ["${workspaceFolder}/out/**/*.js"],
       "preLaunchTask": "npm: build",
       "sourceMaps": true,
       "smartStep": true,
-      "internalConsoleOptions": "openOnSessionStart",
-      "outFiles": ["${workspaceFolder}/out/**/*.js"]
+      "internalConsoleOptions": "openOnSessionStart"
     }
   ]
 }

@@ -5,12 +5,11 @@
   "main": "index.js",
   "scripts": {
     "start": "node out/app.js",
-    "prestart": "npm run build",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Flávio Micheletti",
   "license": "ISC",
   "devDependencies": {
     "typescript": "^3.8.3"
