@@ -2,7 +2,6 @@
   "name": "typescript-vscode-debugging",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "build": "tsc",
     "start": "node out/app.js",
@@ -14,5 +13,6 @@
   "license": "ISC",
   "devDependencies": {
     "typescript": "^3.8.3"
+    
   }
 }
